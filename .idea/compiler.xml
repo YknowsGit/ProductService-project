@@ -11,5 +11,9 @@
         <module name="servlet.servlet.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="servlet.servlet.main~1" target="21" />
+      <module name="servlet.servlet.test~1" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>

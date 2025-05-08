@@ -14,7 +14,7 @@ import java.io.IOException;
 public class responseJsonServlet extends HttpServlet {
 
     private ObjectMapper objectMapper = new ObjectMapper();
-
+ 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Content-Type: application/json
